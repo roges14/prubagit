@@ -1,6 +1,8 @@
 #repositorio de Rogelio
 #encoding:utf-8
 import socket  
+
+print "Escuchando..."
   
 s = socket.socket()   
 s.bind(("localhost", 8000))  
